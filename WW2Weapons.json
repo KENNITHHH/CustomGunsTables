@@ -1,5 +1,37 @@
 [
 	{
+		"Name": "bayonet_fg42e",
+		"Gun":
+		{
+			"GunName": "bayonet_fg42e",
+			"MagazineCount": 0,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 200,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/Bayonet_FG42E/icon_bayonet_fg42e.icon_bayonet_fg42e'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 100,
+			"ArmourDamage": 100,
+			"ArmourPenetration": 100,
+			"HelmetDamage": 100,
+			"HelmetBleed": 100,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269920/Bayonet_FG42E/Bayonet_FG42E.Bayonet_FG42E_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "bayonet_fg42e",
+			"LootMeshSoftObjectPath": "/UGC3269920/Bayonet_FG42E/SK_FG42_Bayonet.SK_FG42_Bayonet"
+		}
+	},
+	{
 		"Name": "fg42e",
 		"Gun":
 		{
@@ -75,7 +107,7 @@
 				"BuyMenuCategory": "Pistol",
 				"TeamId": -1,
 				"Cost": 800,
-				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/HDM/icon_hdm.icon_hdm'"
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/HDM/icon_hdm_high.icon_hdm_high'"
 			},
 			"KillBonus": 600,
 			"BaseDamage": 35,
@@ -104,7 +136,7 @@
 			"Cost": 1500,
 			"BuyMenuDetails":
 			{
-				"BuyMenuCategory": "Rifle",
+				"BuyMenuCategory": "Heavy",
 				"TeamId": -1,
 				"Cost": 3200,
 				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/M1919A6/icon_m1919a6.icon_m1919a6'"
@@ -260,11 +292,11 @@
 		"Gun":
 		{
 			"GunName": "ptrd41",
-			"MagazineCount": 3,
+			"MagazineCount": 9,
 			"Cost": 1500,
 			"BuyMenuDetails":
 			{
-				"BuyMenuCategory": "Heavy",
+				"BuyMenuCategory": "NotPurchasable",
 				"TeamId": -1,
 				"Cost": 4250,
 				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/PTRD41/icon_ptrd41.icon_ptrd41'"
@@ -285,6 +317,166 @@
 		{
 			"ItemName": "ptrd41",
 			"LootMeshSoftObjectPath": "/UGC3269920/PTDR41/SK_PTRD41.SK_PTRD41"
+		}
+	},
+	{
+		"Name": "scope_fg42e",
+		"Gun":
+		{
+			"GunName": "scope_fg42e",
+			"MagazineCount": 0,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/Scope_FG42E/icon_scope_fg42e.icon_scope_fg42e'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 0,
+			"ArmourDamage": 0,
+			"ArmourPenetration": 0,
+			"HelmetDamage": 0,
+			"HelmetBleed": 0,
+			"Penetration": 0,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269920/Scope_FG42E/Scope_FG42E.Scope_FG42E_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "scope_fg42e",
+			"LootMeshSoftObjectPath": "/UGC3269920/Scope_FG42E/SM_Scope_FG42E.SM_Scope_FG42E"
+		}
+	},
+	{
+		"Name": "stenmk2s",
+		"Gun":
+		{
+			"GunName": "stenmk2s",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Smg",
+				"TeamId": -1,
+				"Cost": 1400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/StenMk2S/icon_stenmk2s.icon_stenmk2s'"
+			},
+			"KillBonus": 400,
+			"BaseDamage": 20,
+			"ArmourDamage": 30,
+			"ArmourPenetration": 10,
+			"HelmetDamage": 25,
+			"HelmetBleed": 25,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269920/StenMk2S/Gun_StenMk2S.Gun_StenMk2S_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "stenmk2s",
+			"LootMeshSoftObjectPath": "/UGC3269920/StenMk2S/SK_StenMk2S.SK_StenMk2S"
+		}
+	},
+	{
+		"Name": "stenmk2s_alt",
+		"Gun":
+		{
+			"GunName": "stenmk2s_alt",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Smg",
+				"TeamId": -1,
+				"Cost": 1400,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/StenMk2S/icon_stenmk2s.icon_stenmk2s'"
+			},
+			"KillBonus": 400,
+			"BaseDamage": 20,
+			"ArmourDamage": 30,
+			"ArmourPenetration": 10,
+			"HelmetDamage": 25,
+			"HelmetBleed": 25,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269920/StenMk2S/Gun_StenMk2S_ALT.Gun_StenMk2S_ALT_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "stenmk2s_alt",
+			"LootMeshSoftObjectPath": "/UGC3269920/StenMk2S/SK_StenMk2S.SK_StenMk2S"
+		}
+	},
+	{
+		"Name": "supp_stenmk2s_fabric",
+		"Gun":
+		{
+			"GunName": "supp_stenmk2s_fabric",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/Suppressor_StenMk2S/icon_supp_stenmk2s1_fabric.icon_supp_stenmk2s1_fabric'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269920/Suppressor_StenMk2S/Suppressor_StenMk2S_Fabric.Suppressor_StenMk2S_Fabric_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "supp_stenmk2s_fabric",
+			"LootMeshSoftObjectPath": "/UGC3269920/Suppressor_StenMk2S/SM_SuppressorStenMk2S_Fabric.SM_SuppressorStenMk2S_Fabric"
+		}
+	},
+	{
+		"Name": "supp_stenmk2s_wolf",
+		"Gun":
+		{
+			"GunName": "supp_stenmk2s_wolf",
+			"MagazineCount": 3,
+			"Cost": 1500,
+			"BuyMenuDetails":
+			{
+				"BuyMenuCategory": "Upgrade",
+				"TeamId": -1,
+				"Cost": 500,
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/Suppressor_StenMk2S/icon_supp_stenmk2s_wolf.icon_supp_stenmk2s_wolf'"
+			},
+			"KillBonus": 0,
+			"BaseDamage": 50,
+			"ArmourDamage": 10,
+			"ArmourPenetration": 60,
+			"HelmetDamage": 100,
+			"HelmetBleed": 75,
+			"Penetration": 100,
+			"GunClass": "/Script/Engine.BlueprintGeneratedClass'/UGC3269920/Suppressor_StenMk2S/Suppressor_StenMk2S_Wolf.Suppressor_StenMk2S_Wolf_C'",
+			"FalloffModifier": 1,
+			"MinFalloffDist": 500,
+			"MaxFalloffDist": 4000
+		},
+		"LootMesh":
+		{
+			"ItemName": "supp_stenmk2s_wolf",
+			"LootMeshSoftObjectPath": "/UGC3269920/Suppressor_StenMk2S/SM_SuppressorStenMk2S_Wolf.SM_SuppressorStenMk2S_Wolf"
 		}
 	},
 	{
@@ -331,7 +523,7 @@
 				"BuyMenuCategory": "Pistol",
 				"TeamId": -1,
 				"Cost": 800,
-				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/Welrod/icon_welrod.icon_welrod'"
+				"BuyMenuImage": "/Script/Engine.Texture2D'/UGC3269920/Welrod/icon_welrod_high.icon_welrod_high'"
 			},
 			"KillBonus": 600,
 			"BaseDamage": 35,
